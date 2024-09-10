@@ -71,9 +71,9 @@ int sumOdds(int array[], int start, int end){
 	int sum = 0;
 	for (int i = start; i < end; i++)
 	{
-		if (i % 2 == 1)
+		if (array[i] % 2 == 1)
 		{
-			sum = sum + array[i];
+			sum += array[i];
 		}
 	}
 
